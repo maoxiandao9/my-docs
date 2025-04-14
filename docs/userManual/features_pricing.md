@@ -58,7 +58,7 @@ One of the major highlights of the PicoScenes platform is its built-in high-perf
 | Multi-Channel Splitting and Stitching | Combining two half-rate sampling channels into a full-rate channel, e.g., achieving up to 400 MHz bandwidth with a single NI USRP X310 (200 MHz rate max.). See [Dual-Channel Spectrum Splitting and Stitching (Experimental)](scenarios.md#dual-channel-spectrum-splitting-and-stitching-experimental) | **✓** | **✓** |
 | Multiple CSI Measurement per Frame | Supporting up to 39 CSI measurements from a single frame. See [Multiple CSI Measurements per Frame](scenarios.md#multiple-csi-measurements-per-frame). | **✓** | **✓** |
 | Channel Impairment Simulation | Simulating CFO, SFO, I/Q Imbalance and their combinations at Tx or Rx end. See [Channel Impairment Simulation](scenarios.md#channel-impairment-simulation) | **✓** | **✓** |
-| Wi-Fi Radar Mode | The *self-Tx-self-Rx* radar model for Wi-Fi sensing research. See [Wi-Fi Radar (802.11bf Mono-Static Sensing Mode) with 802.11a/g/n/ac/ax/be Frame Format](scenarios.md#wi-fi-radar-80211bf-mono-static-sensing-mode-with-80211agnacaxbe-frame-format) | **✓** | **✓** |
+| Wi-Fi Radar Mode | The *self-Tx-self-Rx* radar model for Wi-Fi sensing research. See [Wi-Fi Radar (802.11bf Mono-Static Sensing Mode) with 802.11a/g/n/ac/ax/be Frame Format](scenarios.md#wi-fi-radar-802-11bf-mono-static-sensing-mode-with-802-11a-g-n-ac-ax-be-frame-format) | **✓** | **✓** |
 | Interoperability | Interoperability with COTS NICs, AX210/AX200, QCA9300, IWL5300 and all other Wi-Fi NICs. See [Interoperability among SDR and COTS NICs](scenarios.md#interoperability-among-sdr-and-cots-nics). | **✓** | **✓** |
 
 ### COTS NIC: AX210 and AX200

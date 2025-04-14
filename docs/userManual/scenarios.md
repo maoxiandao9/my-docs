@@ -4,13 +4,13 @@ title: CSI Measurement using PicoScenes
 
 **Revisions**
 
-- Dec. 3, 2023 Add radar mode and MIMO radar mode, see [Wi-Fi Radar (802.11bf Mono-Static Sensing Mode) with 802.11a/g/n/ac/ax/be Frame Format](#wi-fi-radar-80211bf-mono-static-sensing-mode-with-80211agnacaxbe-frame-format).
+- Dec. 3, 2023 Add radar mode and MIMO radar mode, see [Wi-Fi Radar (802.11bf Mono-Static Sensing Mode) with 802.11a/g/n/ac/ax/be Frame Format](#wi-fi-radar-802-11bf-mono-static-sensing-mode-with-802-11a-g-n-ac-ax-be-frame-format).
 
 On this page, we will demonstrate the methods of CSI measurement and various low-level controls on different hardware frontends. You can jump to the interested topics via following links:
 
 1. [Before Getting Started: Some Fundamentals](#before-getting-started-some-fundamentals)
 2. [ISAC Research using NI USRP or HackRF One SDR](#isac-research-using-ni-usrp-or-hackrf-one-sdr)
-3. [CSI Measurement using AX210/AX200 NICs](#csi-measurement-using-ax210ax200-nics)
+3. [CSI Measurement using AX210/AX200 NICs](#csi-measurement-using-ax210-ax200-nics)
 4. [CSI Measurement using QCA9300 and IWL5300 NICs](#csi-measurement-using-qca9300-and-iwl5300-nics)
 5. [Interoperability among SDR and COTS NICs](#interoperability-among-sdr-and-cots-nics)
 
@@ -74,7 +74,7 @@ PicoScenes can drive SDR devices to transmit 802.11a/g/n/ac/ax/be format frames,
 
 1. Receiving frames and measuring CSI by [Listening to Wi-Fi Traffic and Measuring CSI for 802.11a/g/n/ac/ax/be-Format Frame](#listening-to-wi-fi-traffic-and-measuring-csi-for-80211agnacaxbe-format-frame)
 2. Transmitting Frames by [Transmitting 802.11a/g/n/ac/ax/be protocol frames using SDR Devices](#transmitting-80211agnacaxbe-protocol-frames-using-sdr-devices)
-3. Wi-Fi Radar mode by [Wi-Fi Radar (802.11bf Mono-Static Sensing Mode) with 802.11a/g/n/ac/ax/be Frame Format](#wi-fi-radar-80211bf-mono-static-sensing-mode-with-80211agnacaxbe-frame-format)
+3. Wi-Fi Radar mode by [Wi-Fi Radar (802.11bf Mono-Static Sensing Mode) with 802.11a/g/n/ac/ax/be Frame Format](#wi-fi-radar-802-11bf-mono-static-sensing-mode-with-802-11a-g-n-ac-ax-be-frame-format)
 4. Non-Standard Tx and Rx by [Transmission, Reception, and CSI Measurement with Non-Standard Channel and Bandwidth](#transmission-reception-and-csi-measurement-with-non-standard-channel-and-bandwidth)
 5. Concurrent multi-SDR operation by [Concurrent Multi-SDR Operation on a Single Computer](#concurrent-multi-sdr-operation-on-a-single-computer)
 6. Some advanced features by [Advanced Features](#advanced-features)
