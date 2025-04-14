@@ -13,7 +13,7 @@ export default hopeTheme({
 
   author: {
     name: "Zhiping Jiang",
-    // url: "https://javaguide.cn/article/",
+    url: "https://faculty.xidian.edu.cn/zpj/zh_CN/index.htm",
   },
 
   repo: "https://github.com/",
@@ -26,16 +26,6 @@ export default hopeTheme({
   displayFooter: true,
 
   pageInfo: ["Author", "Category", "Tag", "Original", "Word", "ReadingTime"],
-
-  blog: {
-    intro: "/about-the-author/",
-    sidebarDisplay: "mobile",
-    medias: {
-      Zhihu: "https://www.zhihu.com/people/javaguide",
-      Github: "https://github.com/Snailclimb",
-      Gitee: "https://gitee.com/SnailClimb",
-    },
-  },
 
   markdown: {
     align: true,
