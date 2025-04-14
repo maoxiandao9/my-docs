@@ -9,7 +9,7 @@ node_modules/
 # VuePress Temp
 **/.vuepress/.temp/
 # VuePress Output
-# dist/
+dist/
 traversal-folder-replace-string.py
 format-markdown.py
 
