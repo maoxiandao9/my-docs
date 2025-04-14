@@ -8,7 +8,7 @@ const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({
   hostname: "https://ps.zpj.io",
-  // logo: "/logo.png",
+  logo: "/logo.png",
   favicon: "/favicon.ico",
 
   author: {

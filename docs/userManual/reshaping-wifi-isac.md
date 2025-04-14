@@ -8,7 +8,7 @@ Our research work "**Reshaping Wi-Fi ISAC with High-Coherence Hardware Capabilit
 
 ## Download
 
-The main article and supplementaries can be downloaded at [Reshaping Wi-Fi ISAC with High-Coherence Hardware Capabilities](_static/Reshaping-Main.pdf) and [Supplementaries](_static/Reshaping-Supplementary.pdf).
+The main article and supplementaries can be downloaded at [Reshaping Wi-Fi ISAC with High-Coherence Hardware Capabilities](../_static/Reshaping-Main.pdf) and [Supplementaries](../_static/Reshaping-Supplementary.pdf).
 
 ## What Can High-Coherence Hardware Capabilities Bring?
 

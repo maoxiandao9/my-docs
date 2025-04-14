@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: PicoScenes Usage Guidelines
-# heroImage: /logo.svg
+heroImage: /logo.svg
 heroText: PicoScenes
 tagline: "PicoScenes: Enabling Modern Wi-Fi ISAC Research!"
 actions:
@@ -14,11 +14,12 @@ actions:
     type: default
 ---
 
-## 关于网站
+## About Website
 
-传送门：[GitHub](https://github.com/)
+PicoScenes is a powerful middleware for modern Wi-Fi integrated sensing and communication (Wi-Fi ISAC) research that addresses two key barriers in the field: hardware limitations and software functionality. On this website, you can get the latest news about PicoScenes and the latest feature support. And on this website you can learn the basic use of the latest features.
+Portal : [GitHub](https://github.com/wifisensing)
 
 
-## 关于作者
+## About the Author
 
-Xidian
+https://faculty.xidian.edu.cn/zpj/zh_CN/index.htm
