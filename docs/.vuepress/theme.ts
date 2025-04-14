@@ -7,24 +7,22 @@ import sidebar from "./sidebar/index.js";
 const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({
-  hostname: "https://javaguide.cn/",
-  logo: "/logo.png",
+  hostname: "https://ps.zpj.io",
+  // logo: "/logo.png",
   favicon: "/favicon.ico",
 
   author: {
-    name: "Guide",
-    url: "https://javaguide.cn/article/",
+    name: "Zhiping Jiang",
+    // url: "https://javaguide.cn/article/",
   },
 
-  repo: "https://github.com/Snailclimb/JavaGuide",
+  repo: "https://github.com/",
   docsDir: "docs",
   pure: true,
   focus: false,
   breadcrumb: false,
   navbar,
   sidebar,
-  footer:
-    '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
   displayFooter: true,
 
   pageInfo: ["Author", "Category", "Tag", "Original", "Word", "ReadingTime"],
@@ -56,17 +54,18 @@ export default hopeTheme({
       },
     },
     tasklist: true,
+    math: true,
   },
 
   plugins: {
     blog: true,
 
     copyright: {
-      author: "JavaGuide(javaguide.cn)",
+      author: "Zhiping Jiang",
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,
-      canonical: "https://javaguide.cn/",
+      canonical: "https://ps.zpj.io/",
       global: true,
     },
 
