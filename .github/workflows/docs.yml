@@ -1,8 +1,10 @@
-name: Docs
+name: docs
 
 on:
+  # trigger deployment on every push to main branch
   push:
     branches: [main]
+  # trigger deployment manually
   workflow_dispatch:
 
 jobs:
@@ -12,44 +14,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # fetch all commits to get last updated time or other git log info
           fetch-depth: 0
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 8.15.5
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          # choose node.js version to use
+          node-version: 22
+          # cache deps for pnpm
           cache: pnpm
 
-      - name: Install system deps
-        run: sudo apt-get install -y build-essential python3
+      - name: Install deps
+        run: pnpm install --frozen-lockfile
 
-      - name: Install project deps
-        run: |
-          pnpm install --frozen-lockfile --shamefully-hoist
-          pnpm list --depth 3 | grep "@vuepress" # 验证依赖树
+      # run build script
+      - name: Build VuePress site
+        run: pnpm docs:build
 
-      - name: Clean cache
-        run: |
-          pnpm store prune
-          rm -rf node_modules/@vuepress*
-          rm -rf docs/.vuepress/.{cache,temp}
-          rm -rf dist
-
-      - name: Build with debug
-        run: |
-          pnpm docs:build --debug
-          ls -la docs/.vuepress/dist # 验证输出结构
-
+      # please check out the docs of the workflow for more details
+      # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
+          # deploy to gh-pages branch
           target_branch: gh-pages
-          build_dir: ./docs/.vuepress/dist # 修正路径
-          keep_history: true
+          # deploy the default output dir of VuePress
+          build_dir: ./dist
         env:
+          # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
