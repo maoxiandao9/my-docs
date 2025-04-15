@@ -1,5 +1,7 @@
 ---
 title: Developing Your PicoScenes Plugins   
+autoNumbering: true
+startNumber: 10
 ---
 
 **Author:** Tian Teng, Xidian University, tengtianmoemoe@gmail.com

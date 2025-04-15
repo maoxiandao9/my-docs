@@ -1,5 +1,7 @@
 ---
 title: PicoScenes Installation & Upgrade
+autoNumbering: true
+startNumber: 5
 ---
 
 ::: tip

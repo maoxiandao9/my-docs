@@ -1,5 +1,7 @@
 --- 
 title: Credits
+autoNumbering: true
+startNumber: 15
 ---
 
 ## Development Team

@@ -1,5 +1,7 @@
 ---
 title: Gallery
+autoNumbering: true
+startNumber: 1
 ---
 
 ## PicoScenes Driving USRP B210 and HackRF One to Inject 11AX Packets and Measuring CSI (1 & 2)

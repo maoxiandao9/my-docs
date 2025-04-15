@@ -1,5 +1,7 @@
 ---
 title: PicoScenes MATLAB Toolbox Core   
+autoNumbering: true
+startNumber: 8
 ---
 
 ## Prerequisites

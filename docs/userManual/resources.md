@@ -1,5 +1,7 @@
 ---
 title: Useful Resources 
+autoNumbering: true
+startNumber: 12
 ---
 
 ## The academic paper of PicoScenes

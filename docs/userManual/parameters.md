@@ -1,5 +1,7 @@
 ---
 title: Command Line Interface and Program Option Reference  
+autoNumbering: true
+startNumber: 7
 ---
 
 ## PicoScenes Command Line Interface 

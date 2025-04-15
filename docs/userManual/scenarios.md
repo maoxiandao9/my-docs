@@ -1,5 +1,7 @@
 ---
 title: CSI Measurement using PicoScenes
+autoNumbering: true
+startNumber: 6
 ---
 
 **Revisions**

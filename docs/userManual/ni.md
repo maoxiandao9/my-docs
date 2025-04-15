@@ -1,5 +1,7 @@
 ---
 title: Selling NI USRP Devices
+autoNumbering: true
+startNumber: 16
 ---
 
 ## 从我们这里采购USRP设备的优势：放心、省钱、省事
