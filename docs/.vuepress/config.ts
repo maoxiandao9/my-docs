@@ -3,13 +3,13 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/my-docs/",
+  base: "/",
   dest: "./dist",
 
   title: "PicoScenes",
   description:
     "PicoScenes: Enabling Modern Wi-Fi ISAC Research! ",
-  lang: "zh-CN",
+  lang: "en-US",
 
   head: [
     // meta
