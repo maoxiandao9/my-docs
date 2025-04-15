@@ -36,7 +36,7 @@ jobs:
       - name: Install deps
         run: | 
           pnpm install --frozen-lockfile
-          # pnpm add @vuepress/client@next vuepress@next --save-dev
+          pnpm add @vuepress/client@next vuepress@next --save-dev
 
       # run build script
       - name: Build VuePress site
