@@ -30,6 +30,12 @@ jobs:
 
       - name: Install deps
         run: pnpm install --frozen-lockfile
+        
+      - name: Clean cache
+        run: |
+          pnpm store prune
+          rm -rf docs/.vuepress/.cache
+          rm -rf docs/.vuepress/.temp
 
       # run build script
       - name: Build VuePress site
