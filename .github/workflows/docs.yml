@@ -28,6 +28,11 @@ jobs:
           # cache deps for pnpm
           cache: pnpm
 
+      - name: Clean and install deps
+        run: |
+            rm -rf node_modules pnpm-lock.yaml
+            pnpm install
+      
       - name: Install deps
         run: | 
           pnpm install --frozen-lockfile
