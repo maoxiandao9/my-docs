@@ -3,6 +3,11 @@ import { defineClientConfig, usePageData, useRouter } from '@vuepress/client'
 
 const NumberingSetter = {
   setup() {
+    // 服务器端渲染检查
+    if (typeof window === 'undefined') {
+      return () => h('div', { style: { display: 'none' } })
+    }
+    
     const page = usePageData()
     const router = useRouter()
     
