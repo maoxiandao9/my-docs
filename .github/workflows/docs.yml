@@ -37,7 +37,7 @@ jobs:
         run: | 
           pnpm install --frozen-lockfile
           pnpm remove @vuepress/client
-          pnpm add @vuepress/client@2.0.0-rc.19 -D --exact
+          pnpm add @vuepress/client@2.0.0-rc.19 -D -E
 
       # run build script
       - name: Build VuePress site
