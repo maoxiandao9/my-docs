@@ -1,6 +1,5 @@
-import { defineClientConfig } from '@vuepress/client'
 import { h, onMounted, watch } from 'vue'
-import { usePageData, useRouter } from '@vuepress/client'
+import { defineClientConfig, usePageData, useRouter } from '@vuepress/client'
 
 const NumberingSetter = {
   setup() {
